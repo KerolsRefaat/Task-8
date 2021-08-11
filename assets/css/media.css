@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+    .current-country .card {
+        width:80%;
+    }
+
+    .current-news .card {
+        width: 90%;
+    }
+    
+}
+
+@media (max-width: 992px) {
+
+    .current-country .card {
+        width: 90%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .owl-carousel .item {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    
+
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c2747;
+}
+
+.owl-carousel {
+    border: 1px solid white;
+    padding: 10px 15px;
+}
+
+.owl-carousel .item {
+    width: 90%;
+    height: 400px;
+}
+
+.owl-carousel .item img {
+    height: 200px;
+    width: auto;
+}
+
+.owl-carousel .item .card {
+    height: 100%;
+}
+
+.owl-carousel .item h4,
+.owl-carousel .item p {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.current-country .card {
+    padding: 0px 20px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #0c2747;
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+.current-country .card img{
+    margin-top: 6%;
+}
+
+.current-country .card h5 {
+    font-weight: lighter;
+    margin: 15px 0;
+}
+
+.current-country .card p {
+    margin: 0;
+}
+
+.current-news .list-of-news {
+    margin-top: 50px;
+}
+
+.current-news .card {
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #0c2747;
+    border: 1px solid white;
+    border-radius: 0;
+    width: 80%;
+}
+
+.current-news .card span {
+    display: block;
+}
+
+.current-news .card h5 {
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+.bgImg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: auto;
+}
